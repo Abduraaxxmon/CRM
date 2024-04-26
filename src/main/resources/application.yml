@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: Abdu2004
+    url: jdbc:postgresql://localhost:5432/forcrm
+    username: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp
+
+
